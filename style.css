@@ -1,0 +1,29 @@
+#header {
+    background-image: url("https://hailstate.com/images/2025/2/14/20240809_SOC_vs_ULM_Sunset_MM_1190.jpg");
+    background-size: cover;
+    height: 50%;
+    color:beige;
+    font-size: 2 rem;
+    border-radius: 0 0 1.2em 1 1.2em; 
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40%;
+}
+h2 {
+    color: rgb(35, 75, 177)
+}
+h1 {
+    color: beige;
+}
+body {
+    background-color:beige;
+    margin: 0;
+}
+.make-red {
+    color:rgb(176, 14, 14);
+}
+h3 {
+    color:rgb(35, 75, 177);
+}
