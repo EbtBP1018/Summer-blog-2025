@@ -18,7 +18,7 @@ h2 {
     color: rgb(35, 75, 177)
 }
 h1 {
-    color: beige;
+    color: rgb(38, 180, 173);
 }
 body {
     background-color:beige;
@@ -29,4 +29,58 @@ body {
 }
 h3 {
     color:rgb(35, 75, 177);
+}
+
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color:rgb(35, 75, 177);
+    font-size: 1.1rem;
+    transition: 1s;
+    padding: 0.5em 1.0em;
+    border-radius: 0.5em;
+}
+
+.nav-links li a:hover {
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    padding: 1em;
+}
+
+.current {
+    text-decoration: underline dotted rgb(35, 75, 177);
+}
+
+.accordion-header {
+    width: 100%;
+    background-color: rgb(74, 214, 214);
+    border: none;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.accordion-header:hover {
+    background-color:rgb(61, 176, 176);
+}
+
+.accordion-content {
+    display: none;
 }
